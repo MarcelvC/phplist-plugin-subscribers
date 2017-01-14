@@ -16,7 +16,7 @@
  * @category  phplist
  *
  * @author    Duncan Cameron
- * @copyright 2011-2016 Duncan Cameron
+ * @copyright 2011-2017 Duncan Cameron
  * @license   http://www.gnu.org/licenses/gpl.html GNU General Public License, Version 3
  */
 
@@ -30,9 +30,9 @@
  *    Important - this file must be saved in UTF-8 encoding
  *
  */
-
 $lan = array(
     'plugin_title' => 'Subscribers Plugin',
+/*  Menu items */
     'Advanced search' => 'Erweiterte Suche',
     'Subscriber History' => 'Abonnenten-Historie',
     'Subscriptions' => 'Abonnements',
@@ -47,6 +47,10 @@ $lan = array(
     'blacklisted_heading' => 'Gesp.',
     'User is blacklisted' => 'Benutzer ist gesperrt (Blacklist)',
     'email is blacklisted' => 'E-Mail ist gesperrt (Blacklist)',
+    'Campaigns' => 'Nachrichten',
+    'Campaigns sent' => 'Versendete Nachrichten',
+    'Campaigns opened' => 'Geöffnete Nachrichten',
+    'Campaigns clicked' => 'Angeklickte Nachrichten',
 /* Subscriber History page */
     'Show events' => 'Ereignisse anzeigen',
     'All' => 'Alle',
@@ -114,6 +118,7 @@ $lan = array(
     'Validate subscriber email addresses' => 'E-Mail-Adressen von Abonnenten validieren',
     'Show subscribers who have an invalid email address' => 'Abonnenten mit ungültiger E-Mail-Adresse anzeigen',
     'Validate' => 'Validieren',
-    'Subscribers with an invalid email address' => 'Abonnenten mit ungültiger E-Mail-Adresse',    
+    'Subscribers with an invalid email address' => 'Abonnenten mit ungültiger E-Mail-Adresse',
     'All subscribers have a valid email address' => 'Alle Abonnenten haben eine gültige E-Mail-Adresse',
+    'Subscriber' => 'Abonnent',
 );
