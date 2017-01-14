@@ -59,6 +59,8 @@ This plugin is free but if you install and find it useful then a donation to sup
 ## Version history ##
 
     version     Description
+    2.7.4+20170114  Improve German translation
+                    Use exact match when searching on checkboxgroup attribute
     2.7.3+20161005  Avoid dependency on mysql 5.7
     2.7.2+20160923  Correct query when using GROUP BY
     2.7.1+20160901  Update translations

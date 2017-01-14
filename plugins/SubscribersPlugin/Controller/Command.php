@@ -28,7 +28,7 @@ use phpList\plugin\SubscribersPlugin\Model\Command as Model;
  * GNU General Public License for more details.
  *
  * @author    Duncan Cameron
- * @copyright 2011-2016 Duncan Cameron
+ * @copyright 2011-2017 Duncan Cameron
  * @license   http://www.gnu.org/licenses/gpl.html GNU General Public License, Version 3
  */
 
@@ -344,14 +344,14 @@ class Command extends Controller
             $error = '';
 
             switch ($_POST['submit']) {
-                case $this->i18n->get('Upload'):
+                case 'Upload':
                     $error = $this->validateFile();
 
                     if ($error == '') {
                         $users = $this->loadUsersFromFile();
                     }
                     break;
-                case $this->i18n->get('Process'):
+                case 'Process':
                     if ($this->model->emails == '') {
                         $error = $this->i18n->get('emails not entered');
                         break;
@@ -362,7 +362,7 @@ class Command extends Controller
                         $error = $this->i18n->get('no valid email addresses entered');
                     }
                     break;
-                case $this->i18n->get('Match'):
+                case 'Match':
                     if ($this->model->pattern == '') {
                         $error = $this->i18n->get('error_match_not_entered');
                         break;
